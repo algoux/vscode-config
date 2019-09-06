@@ -65,7 +65,7 @@
 	},
 	"main": {
 		"prefix": ["main", "mainx"],
-		"scope": "cpp",
+		"scope": "c,cpp",
 		"description": "[algoUX] Snippet for main()",
 		"body": [
 			"int main(int argc, char const *argv[]) {",
@@ -76,7 +76,26 @@
 			""
 		]
 	},
-	"acinit": {
+	"acinit c": {
+		"prefix": "acinit",
+		"scope": "c",
+		"description": "[algoUX] Snippet for C file template",
+		"body": [
+			"#include <math.h>",
+			"#include <stdbool.h>",
+			"#include <stdio.h>",
+			"#include <stdlib.h>",
+			"#include <string.h>",
+			"",
+			"int main(int argc, char const *argv[]) {",
+			"    ${0:/* code */}",
+			"",
+			"    return 0;",
+			"}",
+			""
+		]
+	},
+	"acinit c++": {
 		"prefix": "acinit",
 		"scope": "cpp",
 		"description": "[algoUX] Snippet for C++ file template",
