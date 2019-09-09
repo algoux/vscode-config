@@ -8,12 +8,13 @@
   "C_Cpp.clang_format_style": "{ BasedOnStyle: Google, IndentWidth: 4 }",
   "code-runner.clearPreviousOutput": true,
   "code-runner.runInTerminal": true,
+  "code-runner.saveFileBeforeRun": true,
   "code-runner.executorMap": {
     "c": "gcc $fullFileName -std=c11 -O2 -o $workspaceRoot/.exe && $workspaceRoot/.exe",
     "cpp": "g++ $fullFileName -std=c++11 -O2 -o $workspaceRoot/.exe && $workspaceRoot/.exe",
   },
   // "cpplint.cpplintPath": "C:\\Python27\\Scripts\\cpplint.exe",
-  // "cpplint.cpplintPath": "C:\\Users\\bLue\\AppData\\Local\\Programs\\Python\\Python37\\Scripts\\cpplint.exe",
+  // "cpplint.cpplintPath": "C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python37\\Scripts\\cpplint.exe",
   // "cpplint.cpplintPath": "/usr/bin/cpplint",
   "cpplint.filters": [
     "-build/include_order",
