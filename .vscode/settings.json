@@ -1,14 +1,12 @@
 {
   "editor.formatOnPaste": true,
   "files.autoGuessEncoding": true,
-  "files.associations": {
-    "*.cjson": "jsonc"
-  },
   "cSpell.allowCompoundWords": true,
   "C_Cpp.clang_format_style": "{ BasedOnStyle: Google, IndentWidth: 4 }",
   "code-runner.clearPreviousOutput": true,
   "code-runner.runInTerminal": true,
   "code-runner.saveFileBeforeRun": true,
+  "code-runner.ignoreSelection": true,
   "code-runner.executorMap": {
     "c": "gcc $fullFileName -std=c11 -O2 -o $workspaceRoot/.exe && $workspaceRoot/.exe",
     "cpp": "g++ $fullFileName -std=c++11 -O2 -o $workspaceRoot/.exe && $workspaceRoot/.exe",

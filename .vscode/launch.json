@@ -3,7 +3,6 @@
     "configurations": [
         {
             "name": "Debug C++",
-            "type": "cppdbg",
             "request": "launch",
             "program": "${workspaceFolder}/.exe",
             "args": [],
@@ -11,6 +10,7 @@
             "cwd": "${workspaceFolder}",
             "environment": [],
             "windows": {
+                "type": "cppdbg",
                 "MIMode": "gdb",
                 "miDebuggerPath": "C:\\MinGW64\\bin\\gdb.exe",
                 "externalConsole": false,
@@ -22,16 +22,11 @@
                 "preLaunchTask": "Build (g++)"
             },
             "osx": {
-                "MIMode": "lldb",
-                "externalConsole": true,
-                "logging": {
-                    "trace": true,
-                    "traceResponse": true,
-                    "engineLogging": true
-                },
+                "type": "lldb",
                 "preLaunchTask": "Build (clang++)"
             },
             "linux": {
+                "type": "cppdbg",
                 "MIMode": "gdb",
                 "miDebuggerPath": "/usr/bin/gdb",
                 "externalConsole": false,
