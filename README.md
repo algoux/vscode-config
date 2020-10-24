@@ -7,3 +7,7 @@ It includes debug and run configurations, code snippets, linter rules and useful
 ### Supported Languages
 
 - C/C++
+
+### Used by
+
+- [Algo Bootstrap](https://ab.algoux.org)
